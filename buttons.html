@@ -12,6 +12,28 @@
         margin: 4px;
     }
 
+    .sub-btn {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin: 4px;
+    }
+
+    /* :hover is basically called as pseudo class
+        :active is also a pseudo class
+    */
+    .sub-btn:hover {
+        opacity: 0.8;
+    }
+
+    .sub-btn:active {
+        opacity: 0.5;
+    }
+
     /* class help us to label HTML elements */
     .join-button {
         background-color: white;
@@ -21,6 +43,15 @@
         border-color: rgb(41, 118, 211);
         height: 36px;
         width: 62px;
+    }
+
+    .join-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.7;
     }
 
     .tweet-button {
@@ -34,7 +65,7 @@
 
 </style>
 
-<button>
+<button class="sub-btn">
     SUBSCRIBE
 </button>
 
