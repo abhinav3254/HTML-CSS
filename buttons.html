@@ -1,97 +1,27 @@
-<style>
-/* this button is called as CSS selector
-    button {
-        css property <-- left of :(colon) right of : --> css value
-        background-color: rgb(200, 0, 0);
-        color: white;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-        margin: 4px;
-    }
-    */
+<!DOCTYPE html>
+<html>
 
-    .sub-btn {
-        background-color: rgb(200, 0, 0);
-        color: white;
-        border: none;
-        /* height: 36px;
-        width: 105px; */
-        padding: 10px 16px;
-        cursor: pointer;
-        vertical-align: top;
-        border-radius: 2px;
-        /* delaying in opacity by 2 sec */
-        transition: opacity 2s;
-    }
+<head>
 
-    /* :hover is basically called as pseudo class
-        :active is also a pseudo class
-    */
-    .sub-btn:hover {
-        opacity: 0.8;
-    }
+    <title>Buttons Practise</title>
+    <!-- link is void element because it doesn't need any closing tag -->
+    <link rel="stylesheet" href="./buttons.css">
 
-    .sub-btn:active {
-        opacity: 0.5;
-    }
+<body>
 
-    /* class help us to label HTML elements */
-    .join-button {
-        padding: 9px 16px;
-        vertical-align: top;
-        cursor: pointer;
-        background-color: white;
-        border-radius: 2px;
-        color: rgb(41, 118, 211);
-        border: 1px solid;
-        border-color: rgb(41, 118, 211);    
-        transition: background-color 1s , color 1s;
-    }
+    <button class="sub-btn">
+        SUBSCRIBE
+    </button>
 
-    .join-button:hover {
-        background-color: rgb(41, 118, 211);
-        color: white;
-    }
+    <button class="join-button">
+        JOIN
+    </button>
 
-    .join-button:active {
-        opacity: 0.7;
-    }
+    <button class="tweet-button">
+        Tweet
+    </button>
 
-    .tweet-button {
-        padding: 10px 16px;
-        vertical-align: top;
-        cursor: pointer;
-        background-color: rgb(46, 173, 242);
-        border-radius: 18px;
-        font-weight: bold;
-        font-size: 15px;
-        border: none;
-        color: white;
-        transition: box-shadow 0.15s;
-    }
+</body>
+</head>
 
-    .tweet-button:hover {
-        /* box shadow takes three values
-        first 10px means it shift shadow to 10px horizontal
-        second 10px means it shift shadow to 10px vertical
-        third 10px means blur the shadow by 10px
-        */
-        box-shadow: 5px 5px 10px grey;
-    }
-
-</style>
-
-<button class="sub-btn">
-    SUBSCRIBE
-</button>
-
-<button class="join-button">
-    JOIN
-</button>
-
-<button class="tweet-button">
-    Tweet
-</button>
+</html>
