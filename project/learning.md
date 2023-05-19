@@ -9,3 +9,5 @@ example :- image
 3. inline element
 appear within a line of text
 example :- span,strong
+
+Note down :- By default div width is 100% so it will take full space 
