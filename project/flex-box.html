@@ -9,6 +9,7 @@
 
 <body>
 
+    <!-- flex box means flexible box which acquire only that space that is needed -->
     <!-- This div is going to be the flex box -->
     <div style="
     display: flex;
@@ -16,6 +17,42 @@
     ">
         <div style="background-color: lightblue;">div-1</div>
         <div style="background-color: lightpink;">div-2</div>
+    </div>
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    ">
+        <div style="background-color: lightblue;
+        width: 100px;
+        ">100px</div>
+
+        <div style="background-color: lightpink;
+        flex: 1;
+        ">flex: 1 (This Takes up the remaining space)</div>
+    </div>
+
+
+    <div style="
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    ">
+        <div style="background-color: lightblue;
+        width: 100px;
+        ">100px
+        </div>
+
+        <div style="background-color: lightpink;
+        flex: 1;
+        ">flex: 1 (This Takes up the remaining space)
+        </div>
+
+        <div style="background-color: lightblue;
+        flex: 2;
+        ">flex: 2
+        </div>
     </div>
 
 </body>
