@@ -38,12 +38,29 @@
     <div style="
         display: grid;
         /* Here fr means free space */
-        grid-template-columns: 100px 1fr 1fr;
+        grid-template-columns: 100px 1fr 2fr;
         margin-top: 30px;
         ">
         <div style="background-color: lightblue;"> 100px</div>
         <div style="background-color: lightpink;"> 1 fr</div>
-        <div style="background-color: lightskyblue;"> 1 fr</div>
+        <div style="background-color: lightskyblue;"> 2 fr</div>
+    </div>
+
+    <div style="
+        display: grid;
+        /* Here fr means free space */
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 20px;
+        ">
+        <div style="background-color: lightskyblue; height: 200px"> 1 fr</div>
+        <div style="background-color: lightpink; height: 200px"> 1 fr</div>
+        <div style="background-color: lightskyblue; height: 200px"> 1 fr</div>
+        <div style="background-color: lightpink; height: 200px"> 1 fr</div>
+        <div style="background-color: lightskyblue; height: 200px"> 1 fr</div>
+        <div style="background-color: lightpink; height: 200px"> 1 fr</div>
+
     </div>
 
 </body>

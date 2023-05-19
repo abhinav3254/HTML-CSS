@@ -16,15 +16,8 @@
             margin-bottom: 0;
         }
 
-        .video-preview {
-            width: 300px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 15px;
-        }
-
         .thumbnail {
-            width: 300px;
+            width: 100%;
         }
 
         .search-bar {
@@ -64,6 +57,13 @@
             color: rgb(96, 96, 96);
             margin-bottom: 4px;
         }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 40px;
+        }
     </style>
 </head>
 
@@ -71,51 +71,146 @@
 
     <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-preview">
+    <div class="video-grid">
 
-        <div class="thumbnail-row">
-            <img class="thumbnail" src="./img/thumbnail-1.webp" alt="image">
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./img/thumbnail-1.webp" alt="image">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+
         </div>
 
-        <div class="video-info-grid">
-            <div class="channel-picture">
-                <img class="profile-picture"
-                    src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
-                    alt="thumbnail">
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
             </div>
-            <div class="video-info">
-                <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-                <p class="video-author">Marques Brownlee</p>
-                <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-stats">19M views &#183; 4 years ago</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-3.webp" alt="image">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-3.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Crazy Tik Toks Taken Moments Before DISASTER</p>
+                    <p class="video-author">SSSniperWolf</p>
+                    <p class="video-stats">12M views &#183; 1 year ago</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
+            </div>
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-stats">19M views &#183; 4 years ago</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="./img/thumbnail-1.webp" alt="image">
+            </div>
+
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="video-preview">
+
+            <div class="thumbnail-row">
+                <img class="thumbnail"
+                    src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
+            </div>
+            <div class="video-info-grid">
+
+                <div class="channel-picture">
+                    <img class="profile-picture"
+                        src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+                        alt="thumbnail">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Try Not To Laugh Challenge #9
+                    </p>
+                    <p class="video-author">Markiplier</p>
+                    <p class="video-stats">19M views &#183; 4 years ago</p>
+                </div>
+
             </div>
         </div>
 
     </div>
-
-    <div class="video-preview">
-
-        <div class="thumbnail-row">
-            <img class="thumbnail"
-                src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
-        </div>
-        <div class="video-info-grid">
-
-            <div class="channel-picture">
-                <img class="profile-picture"
-                    src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
-                    alt="thumbnail">
-            </div>
-            <div class="video-info">
-                <p class="video-title">
-                    Try Not To Laugh Challenge #9
-                </p>
-                <p class="video-author">Markiplier</p>
-                <p class="video-stats">19M views &#183; 4 years ago</p>
-            </div>
-
-        </div>
-    </div>
-
 
 </body>
 
