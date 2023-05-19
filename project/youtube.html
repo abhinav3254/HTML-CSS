@@ -37,15 +37,9 @@
             color: rgb(96, 96, 96);
         }
 
-        .channel-picture {
-            display: inline-block;
-            width: 50px;
-            vertical-align: top;
-        }
-
-        .video-info {
-            display: inline-block;
-            width: 200px;
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
         }
 
         .profile-picture {
@@ -82,8 +76,8 @@
         <div class="thumbnail-row">
             <img class="thumbnail" src="./img/thumbnail-1.webp" alt="image">
         </div>
-        <div>
 
+        <div class="video-info-grid">
             <div class="channel-picture">
                 <img class="profile-picture"
                     src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-1.jpeg"
@@ -94,8 +88,8 @@
                 <p class="video-author">Marques Brownlee</p>
                 <p class="video-stats">3.4M views &#183; 6 months ago</p>
             </div>
-
         </div>
+
     </div>
 
     <div class="video-preview">
@@ -104,7 +98,7 @@
             <img class="thumbnail"
                 src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
         </div>
-        <div>
+        <div class="video-info-grid">
 
             <div class="channel-picture">
                 <img class="profile-picture"
