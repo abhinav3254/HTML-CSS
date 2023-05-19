@@ -2,8 +2,20 @@
 <html>
 
 <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <title>YouTube.com Clone</title>
+
     <style>
+        p {
+            font-family: Roboto, Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
         .video-preview {
             width: 300px;
             display: inline-block;
@@ -20,7 +32,9 @@
         }
 
         .video-stats {
-            display: inline-block;
+            /* display: inline-block; */
+            font-size: 12px;
+            color: rgb(96, 96, 96);
         }
 
         .channel-picture {
@@ -35,11 +49,26 @@
         }
 
         .profile-picture {
-            width: 100%;
+            width: 40px;
+            border-radius: 50%;
         }
 
         .video-title {
             margin-top: 0px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .thumbnail-row {
+            margin-bottom: 12px
+        }
+
+        .video-author {
+            font-size: 12px;
+            color: rgb(96, 96, 96);
+            margin-bottom: 4px;
         }
     </style>
 </head>
@@ -50,7 +79,7 @@
 
     <div class="video-preview">
 
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail" src="./img/thumbnail-1.webp" alt="image">
         </div>
         <div>
@@ -67,26 +96,32 @@
             </div>
 
         </div>
-
-
-
     </div>
 
     <div class="video-preview">
 
-        <div>
+        <div class="thumbnail-row">
             <img class="thumbnail"
                 src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-2.webp" alt="image">
         </div>
         <div>
 
-            <p>Try Not To Laugh Challenge #9</p>
-            <p class="video-author">Markiplier</p>
-            <p class="video-stats">9M views &#183; 4 years ago</p>
+            <div class="channel-picture">
+                <img class="profile-picture"
+                    src="	https://supersimple.dev/public/img/exercises/youtube/channel-profile-pics/channel-2.jpeg"
+                    alt="thumbnail">
+            </div>
+            <div class="video-info">
+                <p class="video-title">
+                    Try Not To Laugh Challenge #9
+                </p>
+                <p class="video-author">Markiplier</p>
+                <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
 
         </div>
-
     </div>
+
 
 </body>
 
