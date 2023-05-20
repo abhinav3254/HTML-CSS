@@ -1,6 +1,5 @@
 .header {
-    border: 2px solid gray;
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,11 +13,23 @@
 }
 
 .header-items {
-    border: 1px dotted black;
     flex: 1;
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+    gap: 1rem;
+}
+
+.header-items p {
+    font-size: 1.5rem;
+    font-family: Roboto, Arial;
+    color: rgb(0, 166, 255);
+    transition: opacity 0.15s;
+}
+
+.header-items p:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .header-space {
