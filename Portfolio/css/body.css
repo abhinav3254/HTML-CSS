@@ -1,0 +1,20 @@
+.body {
+    display: flex;
+    height: 95vh;
+}
+
+.body-left {
+    display: flex;
+    flex: 1;
+    background-color: lightblue;
+}
+
+.body-right {
+    display: flex;
+    flex: 1;
+}
+
+.body-right img {
+    height: 40%;
+    margin: auto;
+}
