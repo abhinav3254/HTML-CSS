@@ -1,0 +1,22 @@
+.about-page {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-about {
+    background-color: lightblue;
+    display: flex;
+    flex: 1;
+}
+
+.left-about img {
+    margin: auto;
+    width: 60%;
+}
+
+.right-about {
+    background-color: lightpink;
+    display: flex;
+    flex: 1;
+}
