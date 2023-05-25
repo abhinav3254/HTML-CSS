@@ -2,15 +2,47 @@
     height: 90vh;
 }
 
+.skills-intro {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-intro p {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Ubuntu';
+}
+
 .grid-container {
-    display: grid;
-    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    margin: 1rem;
 }
 
 .grid-1 {
     border: 2px solid black;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.grid-img {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .grid-img img {
-    width: 200px;
+    width: 150px;
+}
+
+.grid-name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem;
 }
