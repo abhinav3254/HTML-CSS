@@ -34,19 +34,16 @@
 }
 
 .body-icons {
-    width: 30%;
     display: flex;
-    justify-content: space-between;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     align-items: center;
 }
 
 .body-icons img {
-    width: auto;
-    margin-left: 10px;
-    margin-right: 10px;
-    opacity: 0.5;
+    width: 2rem;
+    margin: 1rem 20px;
+    cursor: pointer;
 }
 
 .body-left button {
