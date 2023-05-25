@@ -1,0 +1,83 @@
+.contact {
+    height: 90vh;
+}
+
+.contact-intro {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.contact-intro-info {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.contact-message {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.contact-main {
+    border: 1px solid green;
+    display: flex;
+    padding: 1rem;
+}
+
+.contact-left {
+    display: flex;
+    flex: 1;
+    background-color: lightpink;
+    margin: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-left-p-1 {
+    margin: 1rem auto;
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+}
+
+.contact-left-p-2 {
+    margin: 1rem auto;
+    font-family: 'Ubuntu';
+    font-size: 1rem;
+}
+
+.left-div-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-img-1 {
+    width: 30px;
+    margin: 10px;
+}
+
+.contact-left-p-3 {
+    font-size: 1.5rem;
+    margin: 10px;
+    font-family: 'Ubuntu';
+}
+
+.left-social {
+    display: flex;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.left-social-img {
+    width: 2rem;
+    margin: 1rem 20px;
+}
+
+.contact-right {
+    display: flex;
+    flex: 1;
+    background-color: lightcoral;
+    margin: 1rem;
+}
