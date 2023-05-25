@@ -26,12 +26,23 @@
     margin: 1rem;
     padding: 10px;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.grid-1:hover {
+    cursor: pointer;
+    /* box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.9); */
+    /* filter: drop-shadow(5px 5px 5px rgba(255, 0, 0, 0.9)); */
 }
 
 .grid-img {
     display: flex;
     justify-content: center;
     padding: 1rem;
+}
+
+.grid-img:hover {
+    filter: drop-shadow(5px 5px 5px rgba(51, 51, 51, 0.5));
 }
 
 .grid-img img {
