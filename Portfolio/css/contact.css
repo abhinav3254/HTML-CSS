@@ -73,6 +73,17 @@
 .left-social-img {
     width: 2rem;
     margin: 1rem 20px;
+    transition: opacity 1s;
+    transition: padding 1s;
+    transition: border 1s;
+    transition: border-radius 1s;
+}
+
+.left-social-img:hover {
+    opacity: 0.5;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 1.4rem;
 }
 
 .contact-right {
