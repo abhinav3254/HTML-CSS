@@ -26,6 +26,8 @@
     padding: 10px;
     border-radius: 1rem;
     cursor: pointer;
+    transition: box-shadow 0.4s;
+    transition: transform 0.4s;
 }
 
 .grid-1:hover {
@@ -33,7 +35,7 @@
     /* box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.9); */
     /* filter: drop-shadow(5px 5px 5px rgba(255, 0, 0, 0.9)); */
 
-    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
 }
 
