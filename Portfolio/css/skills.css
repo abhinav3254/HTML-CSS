@@ -1,0 +1,16 @@
+.skills {
+    height: 90vh;
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+}
+
+.grid-1 {
+    border: 2px solid black;
+}
+
+.grid-img img {
+    width: 200px;
+}
