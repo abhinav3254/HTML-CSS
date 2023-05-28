@@ -1,0 +1,29 @@
+.navbar {
+    border: 1px dotted purple;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.left {
+    border: 1px solid green;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.center {
+    border: 1px sloid yellow;
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+
+.right {
+    border: 1px solid slateblue;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
