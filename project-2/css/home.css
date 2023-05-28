@@ -7,7 +7,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    margin: auto 0px;
+    margin: auto 5rem;
 }
 
 
@@ -29,7 +29,6 @@
     color: white;
     padding: .5rem 1rem;
     border-radius: 2rem;
-    margin: 2px;
 }
 
 .home-right {
