@@ -1,0 +1,31 @@
+.skills {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-div-1 {
+    display: flex;
+    justify-content: center;
+    border: 1px dotted black;
+}
+
+.container {
+    display: flex;
+    border: 2px dotted red;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.skills-container-img {
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+}
+
+.container p {
+    margin: auto;
+    margin-top: 15px;
+}
