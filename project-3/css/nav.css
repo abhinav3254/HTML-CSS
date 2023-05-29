@@ -1,0 +1,58 @@
+.nav-bar {
+    display: flex;
+}
+
+.nav-left {
+    display: flex;
+    margin-right: 1rem;
+    flex: 1;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid purple;
+}
+
+.nav-left p {
+    font-size: 1rem;
+}
+
+/* 
+    color: rgb(9, 135, 168);
+*/
+
+
+.nav-center {
+    display: flex;
+    margin-right: 1rem;
+    flex: 2;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid green;
+}
+
+.nav-center p {
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.nav-center p:hover {
+    color: rgb(73, 77, 217);
+}
+
+.nav-right {
+    flex: 1;
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-right button {
+    background-color: rgb(73, 77, 217);
+    border: 0px;
+    color: white;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    border-radius: 1rem;
+}
