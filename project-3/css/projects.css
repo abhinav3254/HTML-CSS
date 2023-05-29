@@ -1,0 +1,52 @@
+.project {
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
+    margin: 20px;
+    display: flex;
+    border: 2px solid teal;
+    padding: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0px 0px 5px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card button {
+    padding: 1rem 2rem;
+    background-color: rgb(29, 161, 242);
+    border: 0px;
+    color: white;
+    border-radius: 0.5rem;
+    width: 80%;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(29, 161, 242, 0.8);
+    margin-bottom: 20px;
+}
+
+.card button:hover {
+    opacity: 0.8;
+}
+
+.project-img {
+    border-radius: 1rem 1rem 0px 0px;
+    width: 24rem;
+    height: 12rem;
+}
