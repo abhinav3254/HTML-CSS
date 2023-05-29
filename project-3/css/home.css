@@ -1,0 +1,56 @@
+.home {
+    height: 90vh;
+    display: flex;
+    margin: 10px 2px;
+}
+
+.home-left {
+    flex: 1;
+    border: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    margin: auto 0px;
+}
+
+.home-left-p-1 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.home-left-p-2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.home-left-p-3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.home-left-p-4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.home-left-about-me-btn {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    border: 0px;
+    padding: 1rem 1.2rem;
+    border-radius: 0.4rem;
+}
+
+.home-left-work-btn {
+    background-color: rgba(72, 77, 219, 255);
+    color: white;
+    border: 0px;
+    padding: 1rem 1.2rem;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+}
+
+.home-right {
+    flex: 1;
+    border: 1px solid yellow
+}
