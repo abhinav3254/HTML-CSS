@@ -1,0 +1,14 @@
+.about {
+    height: 85vh;
+    display: flex;
+}
+
+.about-left {
+    flex: 1;
+    border: 1px solid slateblue;
+}
+
+.about-right {
+    flex: 2;
+    border: 1px solid salmon;
+}
