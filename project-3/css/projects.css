@@ -12,6 +12,10 @@
     padding: 1rem;
 }
 
+.project-p-1 {
+    font-size: 4rem;
+}
+
 .card {
     display: flex;
     justify-content: center;
