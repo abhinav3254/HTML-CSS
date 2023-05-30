@@ -1,0 +1,44 @@
+.contact {
+    display: flex;
+    border: 2px solid saddlebrown;
+    height: 90vh;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-right {
+    flex: 1;
+    display: flex;
+    border: 2px solid salmon;
+}
+
+.contact-right-div {
+    border: 2px dotted dodgerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact-right-div p {
+    margin: 1rem auto;
+    font-size: 4rem;
+}
+
+.contact-right-div input {
+    width: 25rem;
+    height: 2rem;
+    margin: 0.5rem 1rem;
+    padding: 5px;
+}
+
+.contact-right-div button {
+    width: 40%;
+    margin: 1rem auto;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
