@@ -1,10 +1,14 @@
 .nav-bar {
+    padding: 10px;
     display: flex;
-    margin-top: 5px;
     position: fixed;
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .nav-left {
@@ -41,17 +45,22 @@
     cursor: pointer;
 }
 
-.nav-center p:hover {
+.nav-center p a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-center p a:hover {
     color: rgb(73, 77, 217);
 }
 
 .nav-right {
+    margin-right: 2rem;
     flex: 1;
     border: 1px solid salmon;
     display: flex;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 10px;
 }
 
 .nav-right button {

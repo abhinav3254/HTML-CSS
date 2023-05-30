@@ -5,7 +5,32 @@
 }
 
 .contact-left {
+    display: flex;
     flex: 1;
+    justify-content: center;
+    border: 2px solid orangered;
+}
+
+.contact-left-div {
+    border: 2px solid royalblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-left-div img {
+    width: 40rem;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.contact-left-div-p-1 {
+    font-size: 2rem;
+}
+
+.contact-left-div-p-2 {
+    font-size: 1.2rem;
 }
 
 .contact-right {
@@ -48,9 +73,11 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+    margin: 1rem;
 }
 
 .contact-social img {
     width: 2rem;
     height: 2rem;
+    cursor: pointer;
 }
