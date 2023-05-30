@@ -1,6 +1,5 @@
 .contact {
     display: flex;
-    border: 2px solid saddlebrown;
     height: 90vh;
 }
 
@@ -8,11 +7,9 @@
     display: flex;
     flex: 1;
     justify-content: center;
-    border: 2px solid orangered;
 }
 
 .contact-left-div {
-    border: 2px solid royalblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,30 +18,50 @@
 
 .contact-left-div img {
     width: 40rem;
-    padding: 10px;
-    border: 2px solid red;
+    padding: 5px;
+    margin: 10px;
 }
 
 .contact-left-div-p-1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 0;
 }
 
 .contact-left-div-p-2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 0;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 0.1rem 0.9rem;
+    background-color: dodgerblue;
+    display: flex;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btn img {
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
 }
 
 .contact-right {
     flex: 1;
     display: flex;
-    border: 2px solid salmon;
 }
 
 .contact-right-div {
-    border: 2px dotted dodgerblue;
+    box-shadow: 4px 4px 5px rgba(30, 144, 255, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
+    border-radius: 10px;
 }
 
 .contact-right-div p {
