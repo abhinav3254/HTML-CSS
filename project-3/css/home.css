@@ -1,7 +1,8 @@
 .home {
     height: 90vh;
     display: flex;
-    margin: 10px 2px;
+    margin: 0px 2px;
+    margin-top: 5rem;
 }
 
 .home-left {
@@ -15,42 +16,56 @@
 .home-left-p-1 {
     font-size: 0.8rem;
     font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .home-left-p-2 {
     font-size: 2rem;
     font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 0;
 }
 
 .home-left-p-3 {
     font-size: 2rem;
     font-weight: 900;
+    line-height: 0.9;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .home-left-p-4 {
     font-size: 1rem;
     font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 0;
 }
 
-
-.home-left-about-me-btn {
-    background-color: rgb(29, 161, 242);
-    color: white;
-    border: 0px;
-    padding: 1rem 1.2rem;
-    border-radius: 0.4rem;
+.home-left-social {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
-.home-left-work-btn {
-    background-color: rgba(72, 77, 219, 255);
-    color: white;
-    border: 0px;
-    padding: 1rem 1.2rem;
-    border-radius: 0.4rem;
-    margin-left: 1rem;
+.home-left-social img {
+    width: 48px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
 }
 
 .home-right {
     flex: 1;
-    border: 1px solid yellow
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.home-right img {
+    width: 40rem;
+    height: 25rem;
+    margin: auto;
+}
+
+.span-1 {
+    color: red;
 }

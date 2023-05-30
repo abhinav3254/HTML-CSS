@@ -1,4 +1,18 @@
 body {
     margin: 0;
-    background-color: #E6FFFD;
+}
+
+@font-face {
+    font-family: 'NatureBeauty';
+    src: url(../fonts/NatureBeauty.ttf);
+}
+
+@font-face {
+    font-family: 'Honey';
+    src: url(../fonts/HoneybeePersonalUseRegular-YzBn4.ttf);
+}
+
+@font-face {
+    font-family: 'Rooster';
+    src: url(../fonts/Rooster.ttf);
 }

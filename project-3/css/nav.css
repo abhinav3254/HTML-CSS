@@ -3,9 +3,9 @@
     display: flex;
     position: fixed;
     width: 100%;
-    margin-left: 5px;
     margin-right: 5px;
-    background-color: white;
+    background-color: rgba(56, 9, 164, 255);
+    color: white;
     top: 0;
     right: 0;
     left: 0;
@@ -13,11 +13,11 @@
 
 .nav-left {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 2rem;
     flex: 1;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid purple;
+    font-family: 'Calligraffitti', cursive;
+    ;
 }
 
 .nav-left p {
@@ -37,7 +37,6 @@
     justify-content: space-between;
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid green;
 }
 
 .nav-center p {
@@ -48,28 +47,48 @@
 .nav-center p a {
     text-decoration: none;
     color: black;
+    color: white;
+    transition: padding 1s;
+    margin: 0px 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-center p a:hover {
-    color: rgb(73, 77, 217);
+    /* background-color: rgb(73, 77, 217); */
+    background-color: white;
+    color: rgba(135, 0, 98, 255);
+    padding: 10px 1rem;
 }
 
 .nav-right {
     margin-right: 2rem;
     flex: 1;
-    border: 1px solid salmon;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .nav-right button {
-    background-color: rgb(73, 77, 217);
+    /* background-color: rgb(73, 77, 217); */
+    background-color: black;
     border: 0px;
     color: white;
     margin: 10px 0px;
-    padding: 0px 15px;
+    padding: 10px 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+    /* box-shadow: 4px 4px 4px rgba(73, 77, 217, 0.8); */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+    transition: background-color 1s;
+}
 
-    box-shadow: 4px 4px 4px rgba(73, 77, 217, 0.5);
+.nav-right button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 1rem;
+}
+
+.nav-right button:hover {
+    opacity: 0.8;
+    background-color: rgba(56, 9, 164, 255);
 }
