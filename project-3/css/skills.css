@@ -1,13 +1,27 @@
 .skills {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container-p-1 {
+    font-size: 4rem;
+}
+
+.skills-container-p-2 {
+    font-size: 1.2rem;
 }
 
 .skills-div-1 {
     display: flex;
     justify-content: center;
-    border: 1px dotted black;
 }
 
 .container {
