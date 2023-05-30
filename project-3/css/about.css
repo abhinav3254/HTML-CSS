@@ -5,10 +5,34 @@
 
 .about-left {
     flex: 1;
-    border: 1px solid slateblue;
+    display: flex;
+    justify-content: center;
+}
+
+.about-left img {
+    width: 40rem;
+    height: 25rem;
+    margin: auto;
 }
 
 .about-right {
     flex: 2;
-    border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+}
+
+.about-right-div {
+    margin: auto 1rem;
+}
+
+.about-right-div-p-1 {
+    font-size: 4rem;
+}
+
+.about-right-div-p-2 {
+    font-size: 2.5rem;
+}
+
+.about-right-div-p-3 {
+    font-size: 1rem;
 }
