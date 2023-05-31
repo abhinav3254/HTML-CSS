@@ -11,6 +11,8 @@
         function myReverse() {
             document.getElementById("demo").innerHTML = "A Paragraph by Abhinav"
         }
+
+
     </script>
 
 </head>
@@ -21,6 +23,25 @@
     <p id="demo">A Paragraph</p>
     <button type="button" onclick="myFunction()">Try it</button>
     <button type="button" onclick="myReverse()">Reverse it</button>
+
+
+    <h2>JavaScript in body tag</h2>
+
+    <p id="demo-2">This is Abhinav</p>
+    <button type="button" onclick="myChangeIt1()">change it</button>
+    <button type="button" onclick="myReverseIt1()">reverse it</button>
+
+    <script>
+        function myChangeIt1() {
+            document.getElementById("demo-2").innerHTML = "Abhinav Kumar";
+        }
+
+        function myReverseIt1() {
+            document.getElementById("demo-2").innerHTML = "This is Abhinav Jha";
+        }
+    </script>
+
+
 </body>
 
 </html>
