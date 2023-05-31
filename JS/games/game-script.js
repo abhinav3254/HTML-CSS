@@ -24,11 +24,11 @@ function computerOutput(value) {
         }
     } else if (value == 2) {
         if (computerSelect == 1) {
-            document.getElementById('result').innerHTML = 'computer won';
+            document.getElementById('result').innerHTML = 'you won';
         } else if (computerSelect == 2) {
             document.getElementById('result').innerHTML = 'tie';
         } else if (computerSelect == 3) {
-            document.getElementById('result').innerHTML = 'you won';
+            document.getElementById('result').innerHTML = 'computer won';
         }
     } else if (value == 3) {
         if (computerSelect == 1) {
