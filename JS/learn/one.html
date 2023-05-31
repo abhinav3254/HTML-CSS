@@ -2,7 +2,7 @@
 <html>
 
 <head>
-
+    <!-- JS in script -->
     <script>
         function myFunction() {
             document.getElementById("demo").innerHTML = "Paragraph changed.";
@@ -11,7 +11,12 @@
         function myReverse() {
             document.getElementById("demo").innerHTML = "A Paragraph by Abhinav"
         }
+
+
     </script>
+
+    <script src="./myScript.js"></script>
+    <script src="./two.js"></script>
 
 </head>
 
@@ -21,6 +26,46 @@
     <p id="demo">A Paragraph</p>
     <button type="button" onclick="myFunction()">Try it</button>
     <button type="button" onclick="myReverse()">Reverse it</button>
+
+
+    <h2>JavaScript in body tag</h2>
+
+    <p id="demo-2">This is Abhinav</p>
+    <button type="button" onclick="myChangeIt1()">change it</button>
+    <button type="button" onclick="myReverseIt1()">reverse it</button>
+
+    <script>
+        function myChangeIt1() {
+            document.getElementById("demo-2").innerHTML = "Abhinav Kumar";
+        }
+
+        function myReverseIt1() {
+            document.getElementById("demo-2").innerHTML = "This is Abhinav Jha";
+        }
+    </script>
+
+
+
+    <h2>External Link of Script</h2>
+
+    <p id="demo-3">External Script</p>
+
+    <button type="button" onclick="myFunction1()">change it</button>
+    <button type="button" onclick="myFunction2()">reverse it</button>
+
+
+
+    <h2> JS output </h2>
+
+
+    <p id="demo-4">This is demo-4</p>
+    <button type="button" onclick="addIt1()">click me</button>
+
+
+    <!-- linking two.js -->
+
+    <button id="add1" onclick="add1()">add</button>
+
 </body>
 
 </html>
