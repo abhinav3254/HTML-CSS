@@ -4,6 +4,19 @@
     align-items: center;
 }
 
+.p-container {
+    display: flex;
+    width: 20rem;
+}
+
+.p-container-1 {
+    flex: 2;
+}
+
+.p-container-2 {
+    flex: 1;
+}
+
 .btn-select {
     display: flex;
 }
@@ -17,6 +30,11 @@
     border: 0px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 99, 71, 0.8);
+}
+
+.stone-btn:hover {
+    opacity: 0.8;
 }
 
 .paper-btn {
@@ -28,6 +46,11 @@
     border: 0px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 99, 71, 0.8);
+}
+
+.paper-btn:hover {
+    opacity: 0.8;
 }
 
 .scissor-btn {
@@ -39,4 +62,19 @@
     border: 0px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 99, 71, 0.8);
+}
+
+.scissor-btn:hover {
+    opacity: 0.8;
+}
+
+.result {
+    background-color: tomato;
+    padding: 2rem 4rem;
+    color: white;
+    border-radius: 10px;
+    font-size: 5rem;
+    /* box-shadow: 5px 5px 5px rgba(255, 99, 71, 0.8); */
+    box-shadow: 5px 5px 5px rgba(0, 99, 71, 0.8);
 }
