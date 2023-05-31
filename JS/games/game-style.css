@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-select {
+    display: flex;
+}
+
+.stone-btn {
+    background-color: dodgerblue;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 10rem;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.paper-btn {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 10rem;
+    background-color: rebeccapurple;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scissor-btn {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 10rem;
+    background-color: darkorange;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+Lessons:
+0:00 Intro
+1:47 1. JavaScript Basics
+14:51 2. Numbers and Math
+45:25 3. Strings
+1:11:30 4. HTML CSS Review, console.log
+1:56:35 5. Variables
+2:42:30 6. Booleans and If-Statements
+3:49:51 7. Functions
+4:34:44 8. Objects
+5:51:43 9. Document Object Model (DOM)
+7:12:03 10. HTML, CSS, and JavaScript Together
+8:21:19 11. Arrays and Loops
+9:26:38 11 (Part 2). Arrays and Loops
+10:16:22 12. Advanced Functions
+11:02:26 12 (Part 2). Advanced Functions
+11:55:49 Projects and Ending
