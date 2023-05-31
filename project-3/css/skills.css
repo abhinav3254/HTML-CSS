@@ -13,6 +13,7 @@
 
 .skills-container-p-1 {
     font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .skills-container-p-2 {
@@ -42,4 +43,5 @@
 .container p {
     margin: auto;
     margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
 }

@@ -1,5 +1,5 @@
 .about {
-    height: 85vh;
+    height: 90vh;
     display: flex;
 }
 
@@ -13,6 +13,7 @@
     width: 40rem;
     height: 25rem;
     margin: auto;
+    margin-left: 2.5rem;
 }
 
 .about-right {
@@ -27,12 +28,15 @@
 
 .about-right-div-p-1 {
     font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about-right-div-p-2 {
     font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .about-right-div-p-3 {
     font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
 }
