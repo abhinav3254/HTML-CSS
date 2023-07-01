@@ -11,13 +11,18 @@
 
     <div class="container">
         <h2>Stone Paper Scissor</h2>
-        <p>Select any one</p>
+
+        <div class="p-container">
+            <p class="p-container-1">Computer Selected:- </p>
+            <p id="display" class="p-container-2">Select any one</p>
+        </div>
 
         <div class="btn-select">
-            <button class="stone-btn">stone</button>
-            <button class="paper-btn">paper</button>
-            <button class="scissor-btn">scissor</button>
+            <button id="stone" onclick="computerOutput(1)" class="stone-btn">stone</button>
+            <button id="paper" onclick="computerOutput(2)" class="paper-btn">paper</button>
+            <button id="scissor" onclick="computerOutput(3)" class="scissor-btn">scissor</button>
         </div>
+        <p id="result" class="result">result</p>
     </div>
 
 </body>

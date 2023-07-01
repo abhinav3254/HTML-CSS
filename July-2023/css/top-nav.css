@@ -1,0 +1,12 @@
+.top-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+    height: 2.5rem;
+}
+
+.top-nav img {
+    width: 20px;
+    margin: 2px 16px;
+}
