@@ -1,0 +1,26 @@
+.name-intro {
+    height: 10rem;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
+
+.name-intro-p1 {
+    margin: -2px;
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+
+.name-intro-p2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.name-intro-p2 span {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+}
