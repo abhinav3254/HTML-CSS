@@ -1,0 +1,73 @@
+.direction-parent {
+    background-color: lightgray;
+}
+
+.direction-left {
+    width: 70%;
+    border: 2px solid red;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin: 20px 2rem;
+}
+
+.left-box img {
+    width: 90%;
+}
+
+.left-box-div1 {
+    padding: 0px 2rem;
+    margin: 16px;
+    font-size: 1rem;
+}
+
+/* Like and comment section start from here */
+
+.like-reply {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* like button work here */
+
+.like-btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.like-btn img {
+    margin: 2px;
+}
+
+.like-btn p {
+    margin: 2px;
+}
+
+/* reply button work here */
+
+.reply-btn {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.reply-btn2 {
+    margin: 0px 5px;
+    padding: 0px 5px;
+    background-color: white;
+    color: black;
+}
